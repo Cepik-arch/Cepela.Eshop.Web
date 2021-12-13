@@ -10,5 +10,8 @@ namespace Cepela.Eshop.Web.Models.ViewModels
     {
         public IList<CarouselItem> CarouselItems { get; set; }
         public IList<ProductItem> ProductItems { get; set; }
+
     }
+
+
 }

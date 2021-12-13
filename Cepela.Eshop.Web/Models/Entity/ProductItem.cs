@@ -34,5 +34,8 @@ namespace Cepela.Eshop.Web.Models.Entity
         [Required]
         [StringLength(50)]
         public string Category { get; set; }
+
+        [NotMapped]
+        public string[] Categories = { "Art", "Life", "Meme" };
     }
 }

@@ -16,8 +16,6 @@ for details on configuring this project to bundle and minify static web assets. 
 .noparallax {
     /* The image used */
     background-color: white;
-    /* Set a specific height */
-    min-height: 85vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
